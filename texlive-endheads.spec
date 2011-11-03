@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/endheads
+# catalog-date 2009-03-12 01:34:25 +0100
+# catalog-license lppl
+# catalog-version v1.53
 Name:		texlive-endheads
 Version:	v1.53
 Release:	1
@@ -47,6 +53,7 @@ packages.
 #- source
 %doc %{_texmfdistdir}/source/latex/endheads/endheads.dtx
 %doc %{_texmfdistdir}/source/latex/endheads/endheads.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
