@@ -6,7 +6,7 @@
 # catalog-version v1.53
 Name:		texlive-endheads
 Version:	v1.53
-Release:	1
+Release:	2
 Summary:	Running headers of the form "Notes to pp.xx-yy"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/endheads
