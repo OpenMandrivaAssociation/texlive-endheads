@@ -5,6 +5,7 @@
 # catalog-license lppl
 # catalog-version v1.5
 Name:		texlive-endheads
+Epoch:		1
 Version:	v1.5
 Release:	1
 Summary:	Running headers of the form "Notes to pp.xx-yy"
