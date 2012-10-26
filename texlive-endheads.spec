@@ -1,13 +1,13 @@
-# revision 24992
+# revision 27581
 # category Package
 # catalog-ctan /macros/latex/contrib/endheads
-# catalog-date 2011-12-31 23:12:05 +0100
+# catalog-date 2012-06-14 17:28:14 +0200
 # catalog-license lppl
 # catalog-version v1.5
 Name:		texlive-endheads
 Epoch:		1
 Version:	v1.5
-Release:	1
+Release:	2
 Summary:	Running headers of the form "Notes to pp.xx-yy"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/endheads
