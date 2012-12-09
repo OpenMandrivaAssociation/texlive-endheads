@@ -1,13 +1,13 @@
-# revision 27581
+# revision 24992
 # category Package
 # catalog-ctan /macros/latex/contrib/endheads
-# catalog-date 2012-06-14 17:28:14 +0200
+# catalog-date 2011-12-31 23:12:05 +0100
 # catalog-license lppl
 # catalog-version v1.5
 Name:		texlive-endheads
 Epoch:		1
 Version:	v1.5
-Release:	2
+Release:	1
 Summary:	Running headers of the form "Notes to pp.xx-yy"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/endheads
@@ -54,3 +54,21 @@ packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:v1.5-1
++ Revision: 758879
+- Update to latest upstream release
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.53-2
++ Revision: 751418
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.53-1
++ Revision: 718332
+- texlive-endheads
+- texlive-endheads
+- texlive-endheads
+- texlive-endheads
+
