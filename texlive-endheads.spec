@@ -7,7 +7,7 @@
 Name:		texlive-endheads
 Epoch:		1
 Version:	v1.5
-Release:	4
+Release:	5
 Summary:	Running headers of the form "Notes to pp.xx-yy"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/endheads
