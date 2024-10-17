@@ -4,7 +4,7 @@ Version:	43750
 Release:	2
 Summary:	Running headers of the form "Notes to pp.xx-yy"
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/endheads
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/endheads
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/endheads.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/endheads.doc.r%{version}.tar.xz
